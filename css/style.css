@@ -23,10 +23,6 @@ body {
     justify-items: center; /* Center items horizontally */
 }
 
-p {
-    margin: 0;
-}
-
 .card {
     display: flex;
     flex-direction: column;

@@ -4,18 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
-    <title>Document</title>
+    <title>Wilde-Tiere-Qaurtett</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header/header.css">
+    <link rel="stylesheet" href="css/header/header-m.css">
     <link rel="stylesheet" href="css/mobile.css">
 </head>
 
 <body>
-    <div class="wrapper">
-        <div id="card-container">
-            
+    <header>
+        <div class="title-menu">
+            <h1 class="site-title">Wilde-Tiere-Quartett</h1>
+            <button id="btn-mobile-menu" onclick="handleBtnMobileMenuPress()">M</button>
         </div>
-    </div>
+
+        <nav class="nav-menu">
+            <ul class="nav-items">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="wrapper">
+            <div id="card-container">
+
+            </div>
+        </div>
+    </main>
+
     <script src="script/animaldata.js"></script>
+    <script src="script/mobile.js"></script>
     <script src="script/main.js"></script>
 </body>
 
