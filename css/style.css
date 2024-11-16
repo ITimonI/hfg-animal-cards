@@ -1,0 +1,89 @@
+:root {
+    --dark-color: #181818;
+    --bg-color: #d7d1b0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+body {
+    user-select: none;
+}
+
+.card img {
+    -webkit-user-drag: none;
+}
+
+#card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+}
+
+p {
+    margin: 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-color);
+    width: 18em;
+    border-radius: 1em;
+    overflow: hidden;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+
+    height: 3em;
+}
+
+.card-image {
+    width: 100%;
+    height: 12em;
+    object-fit: cover;
+}
+
+.card-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card-stat {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1em;
+    align-items: center;
+}
+
+.card-trivia {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+.card-number {
+    background-color: limegreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-title {
+    display: flex;
+    align-items: center;
+    background-color: lightblue;
+}
+
+.card-title-text {
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 0.5rem;
+    font-size: 1.2rem;
+}
