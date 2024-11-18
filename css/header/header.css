@@ -35,3 +35,7 @@ header {
     color: white;
     text-decoration: none;
 }
+
+.nav-items li a:hover {
+    color: rgb(134, 219, 255);
+}

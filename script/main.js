@@ -13,10 +13,12 @@ function generateAnimalCard(animal) {
 
     const animalTag = animal.group + animal.group_number;
 
+    const groupClass = 'group-' + animal.group.toLowerCase();
+
     const htmlContent = `
             <div class="card">
                 <div class="card-header">
-                    <div class="card-number">${animalTag}</div>
+                    <div class="card-number ${groupClass}">${animalTag}</div>
                     <div class="card-title">
                         <p class="card-title-text">${animal.name}</p>
                     </div>
