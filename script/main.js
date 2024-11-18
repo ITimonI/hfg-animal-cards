@@ -1,5 +1,3 @@
-createCards();
-
 // iterate through data and create a card for each animal
 function createCards() {
     const cardContainer = document.getElementById('card-container');
@@ -67,3 +65,5 @@ function generateAnimalCard(animal) {
         `;
     return htmlContent;
 }
+
+createCards();
