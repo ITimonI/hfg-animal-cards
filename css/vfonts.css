@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Figtree';
+    src: url('../vfonts/Figtree-Light.woff2') format('woff2'),
+        url('../vfonts/Figtree-Light.woff') format('woff');
+    font-weight: 100 900;
+    /* Define the range of weights */
+    font-stretch: 75% 100%;
+    /* Define the range of widths */
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Figtree-Italic';
+    src: url('../vfonts/Figtree-LightItalic.woff2') format('woff2'),
+        url('../vfonts/Figtree-LightItalic.woff') format('woff');
+    font-weight: 100 900;
+    /* Define the range of weights */
+    font-stretch: 75% 100%;
+    /* Define the range of widths */
+    font-style: normal;
+    font-display: swap;
+}

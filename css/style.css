@@ -5,7 +5,11 @@
 
 * {
     box-sizing: border-box;
-    font-family: "Arial", sans-serif;
+    font-family: "Figtree";
+}
+
+h1{
+    font-weight: 700;
 }
 
 body {
@@ -90,4 +94,18 @@ body {
     font-weight: 500;
     padding-left: 0.5rem;
     font-size: 1.2rem;
+}
+
+footer {
+    background-color: var(--dark-color);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
 }
