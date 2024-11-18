@@ -16,11 +16,19 @@ body {
     -webkit-user-drag: none;
 }
 
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #card-container {
-    display: grid;
+    display: inline-grid; /* Use inline-grid to shrink to fit content */
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    gap: 3em;
     justify-items: center; /* Center items horizontally */
+    width: auto; /* Ensure the width is only as wide as the content */
+    margin-bottom: 3em;
 }
 
 .card {
