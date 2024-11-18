@@ -12,17 +12,17 @@ header {
     display: none;
 }
 
-.site-title {
+#site-title {
     margin: 0;
     font-size: 1.4em;
 }
 
-.nav-menu {
+#nav-menu {
     display: flex;
     align-items: center;
 }
 
-.nav-items {
+#nav-items {
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -31,11 +31,11 @@ header {
     padding: 0;
 }
 
-.nav-items li a {
+#nav-items li a {
     color: white;
     text-decoration: none;
 }
 
-.nav-items li a:hover {
+#nav-items li a:hover {
     color: rgb(134, 219, 255);
 }
